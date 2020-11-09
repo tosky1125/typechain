@@ -29,7 +29,7 @@ const genesisBlock: Block = new Block(0, "2020202020202", "", "hello", 123456);
 
 let blockChain: Block[] = [genesisBlock];
 
-const getBlockChain = () : Block[] => blockChain;
+// const getBlockChain = () : Block[] => blockChain;
 
 const getLatestBlock = () : Block => blockChain[blockChain.length -1];
 
